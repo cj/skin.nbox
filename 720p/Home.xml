@@ -1364,6 +1364,7 @@
                         <posy>159</posy>
                         <width>155</width>
                         <height>155</height>
+						<!-- Playlists -->
                         <control type="image">
                             <posx></posx>
                             <posy>0</posy>
@@ -1411,6 +1412,7 @@
                             <height>90</height>
                             <texture>top.png</texture>
                         </control>
+						<!-- Radio -->
                         <control type="image">
                             <posy></posy>
                             <posx>160</posx>
@@ -1429,10 +1431,10 @@
                             <animation effect="fade" start="0" end="100" time="400" easing="Out" tween="square" condition="Control.HasFocus(603)">Conditional</animation>
                         </control>
                         <control id="603">
+                            <posx>1</posx>
                             <posy></posy>
                             <type>button</type>
-                            <label>$LOCALIZE[31737]</label>
-                            <posx>1</posx>
+                            <label>$LOCALIZE[19021]</label>
                             <width>155</width>
                             <height>155</height>
                             <align>left</align>
@@ -1440,12 +1442,14 @@
                             <ondown>605</ondown>
                             <onleft>602</onleft>
                             <onright>67</onright>
-                            <onclick>ActivateWindow(Videos,MusicVideoTitles,return)</onclick>
+                            <onclick>ActivateWindow(PVR)</onclick>
+                            <onclick>Setfocus(33)</onclick>
+                            <onclick>Setfocus(12)</onclick>
                         </control>
                         <control type="label">
-                            <label>$LOCALIZE[31737]</label>
                             <posx>170</posx>
                             <posy>120</posy>
+                            <label>$LOCALIZE[19021]</label>
                             <height>30</height>
                             <width>250</width>
                             <font>button_title</font>
@@ -1453,10 +1457,10 @@
                         </control>
                         <control type="image">
                             <posx>190</posx>
-                            <posy>25</posy>
+                            <posy>26</posy>
                             <width>90</width>
                             <height>90</height>
-                            <texture>icons/videos.png</texture>
+                            <texture>radio.png</texture>
                         </control>
                     </control>
                     <control type="group">
@@ -1723,7 +1727,7 @@
                     <height>314</height>
                     <itemgap>4</itemgap>
                     <pagecontrol>3001</pagecontrol>
-                    <control type="group">
+                    <control type="group"><!-- All Channels -->
                         <posx>0</posx>
                         <posy>0</posy>
                         <width>315</width>
@@ -1947,56 +1951,6 @@
                             <width>90</width>
                             <height>90</height>
                             <texture>recent.png</texture>
-                        </control>
-						<!-- Radio -->
-                        <control type="image">
-                            <posy></posy>
-                            <posx>160</posx>
-                            <width>155</width>
-                            <height>155</height>
-                            <texture>tile.png</texture>
-                        </control>
-                        <control type="image">
-                            <posy></posy>
-                            <posx>160</posx>
-                            <width>155</width>
-                            <height>155</height>
-                            <texture>button.png</texture>
-                            <visible>[Control.HasFocus(305)]</visible>
-                            <animation effect="fade" time="200" tween="square">VisibleChange</animation>
-                            <animation effect="fade" start="0" end="100" time="400" easing="Out" tween="square" condition="Control.HasFocus(305)">Conditional</animation>
-                        </control>
-                        <control id="305">
-                            <posx>1</posx>
-                            <posy></posy>
-                            <type>button</type>
-                            <label>$LOCALIZE[19021]</label>
-                            <width>155</width>
-                            <height>155</height>
-                            <align>left</align>
-                            <onup>303</onup>
-                            <ondown>301</ondown>
-                            <onleft>304</onleft>
-                            <onright>66</onright>
-                            <onclick>ActivateWindow(PVR)</onclick>
-                            <onclick>Setfocus(33)</onclick>
-                            <onclick>Setfocus(12)</onclick>
-                        </control>
-                        <control type="label">
-                            <posx>170</posx>
-                            <posy>120</posy>
-                            <label>$LOCALIZE[19021]</label>
-                            <height>30</height>
-                            <width>250</width>
-                            <font>button_title</font>
-                            <align>left</align>
-                        </control>
-                        <control type="image">
-                            <posx>190</posx>
-                            <posy>26</posy>
-                            <width>90</width>
-                            <height>90</height>
-                            <texture>radio.png</texture>
                         </control>
                     </control>
                 </control>
