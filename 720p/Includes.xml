@@ -1178,4 +1178,28 @@
           <visible>!IsEmpty(Window(Home).Property(RandomAlbum.9.Title))</visible>
       </item>
   </include>
+  <include name="onClickMovieTitles">
+    <onclick>ActivateWindow(Videos,MovieTitles,return)</onclick>
+  </include>
+  <include name="onClickMyMovies">
+    <onclick>ActivateWindow(Videos,special://videoplaylists/My Movies.xsp,return)</onclick>
+  </include>
+  <include name="onClickRecentMovies">
+    <onclick>ActivateWindow(Videos,RecentlyAddedMovies,return)</onclick>
+  </include>
+  <include name="onClickKidsMovies">
+    <onclick>ActivateWindow(Videos,special://videoplaylists/Kids Movies.xsp,return)</onclick>
+  </include>
+  <include name="onClickTVShowTitles">
+    <onclick>ActivateWindow(Videos,tvshowtitles,return)</onclick>
+  </include>
+  <include name="onClickMyTVShows">
+    <onclick>ActivateWindow(Videos,special://videoplaylists/My TV Shows.xsp,return)</onclick>
+  </include>
+  <include name="onClickRecentTVShows">
+    <onclick>ActivateWindow(Videos,RecentlyAddedEpisodes,return)</onclick>
+  </include>
+  <include name="onClickKidsTVShows">
+    <onclick>ActivateWindow(Videos,special://videoplaylists/Kids TV Shows.xsp,return)</onclick>
+  </include>
 </includes>

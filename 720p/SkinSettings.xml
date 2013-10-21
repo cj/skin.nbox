@@ -157,6 +157,17 @@
                         <textureradionofocus>other_textures/radiobutton2nf.png</textureradionofocus>
                     </control>
                     <control type="radiobutton" id="105">
+                        <description>Toggle Kids Playlists</description>
+                        <width>820</width>
+                        <align>left</align>
+                        <label>31740</label>
+                        <focusedcolor>Accent</focusedcolor>
+                        <onclick>Skin.ToggleSetting(KidsPlaylists)</onclick>
+                        <selected>Skin.HasSetting(KidsPlaylists)</selected>
+                        <textureradiofocus>other_textures/radiobutton2fo.png</textureradiofocus>
+                        <textureradionofocus>other_textures/radiobutton2nf.png</textureradionofocus>
+                    </control>
+                    <control type="radiobutton" id="106">
                         <description>Toggle Artists Page</description>
                         <width>820</width>
                         <align>left</align>
@@ -167,7 +178,7 @@
                         <textureradiofocus>other_textures/radiobutton2fo.png</textureradiofocus>
                         <textureradionofocus>other_textures/radiobutton2nf.png</textureradionofocus>
                     </control>
-                    <control type="button" id="106">
+                    <control type="button" id="107">
                         <description>Movies to show</description>
                         <width>820</width>
                         <align>left</align>
@@ -179,7 +190,7 @@
                         <onclick condition="Stringcompare(Skin.String(ItemsTypeMovies),$LOCALIZE[31739])">Skin.SetString(ItemsTypeMovies,$LOCALIZE[31709])</onclick>
                         <onclick condition="Stringcompare(Skin.String(ItemsTypeMovies),$LOCALIZE[31738])">Skin.SetString(ItemsTypeMovies,$LOCALIZE[31739])</onclick>
                     </control>
-                    <control type="button" id="107">
+                    <control type="button" id="108">
                         <description>TV to show:</description>
                         <width>820</width>
                         <align>left</align>
@@ -191,7 +202,7 @@
                         <onclick condition="Stringcompare(Skin.String(ItemsTypeTV),$LOCALIZE[31739])">Skin.SetString(ItemsTypeTV,$LOCALIZE[31709])</onclick>
                         <onclick condition="Stringcompare(Skin.String(ItemsTypeTV),$LOCALIZE[31738])">Skin.SetString(ItemsTypeTV,$LOCALIZE[31739])</onclick>
                     </control>
-                    <control type="button" id="108">
+                    <control type="button" id="109">
                         <description>Music to show:</description>
                         <width>820</width>
                         <align>left</align>

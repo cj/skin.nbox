@@ -241,3 +241,11 @@ msgstr ""
 msgctxt "#31739"
 msgid "Recommended"
 msgstr ""
+
+msgctxt "#31740"
+msgid "Kids Playlists"
+msgstr ""
+
+msgctxt "#31741"
+msgid "Kids"
+msgstr ""
