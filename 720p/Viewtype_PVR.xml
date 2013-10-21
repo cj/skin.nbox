@@ -659,7 +659,7 @@
                 <description>EPG Grid</description>
                 <posx>76</posx>
                 <posy>288</posy>
-                <width>1204</width>
+                <width>1190</width>
                 <height>315</height>
                 <pagecontrol>10</pagecontrol>
                 <scrolltime>350</scrolltime>
