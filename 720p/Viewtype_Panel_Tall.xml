@@ -146,7 +146,7 @@
                         <height>155</height>
                         <texture>video_button.png</texture>
                         <animation type="Focus" reversible="false">
-                            <effect type="fade" start="20" end="100" time="400" />
+                            <effect type="fade" start="20" end="75" time="400" /><!-- CR:Reduced end fade so poster still visible -->
                         </animation>
                         <aspectratio scalediffuse="false">stretch</aspectratio>
                     </control>
