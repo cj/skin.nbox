@@ -1484,9 +1484,7 @@
                             <ondown>605</ondown>
                             <onleft>602</onleft>
                             <onright>67</onright>
-                            <onclick>ActivateWindow(PVR)</onclick>
-                            <onclick>Setfocus(33)</onclick>
-                            <onclick>Setfocus(12)</onclick>
+                            <onclick>RunAddon(plugin.audio.tuneinradio)</onclick>
                         </control>
                         <control type="label">
                             <posx>170</posx>
