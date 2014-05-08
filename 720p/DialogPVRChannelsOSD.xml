@@ -90,9 +90,9 @@
                         <label>$INFO[ListItem.ChannelNumber]</label>
                     </control>
                     <control type="image">
-                        <posx>5</posx>
-                        <posy>35</posy>
-                        <width>30</width>
+                        <posx>40</posx>
+                        <posy>12</posy>
+                        <width>20</width>
                         <height>20</height>
                         <texture>PVR-IsRecording.png</texture>
                         <visible>ListItem.IsRecording</visible>
@@ -170,9 +170,9 @@
                         <label>[B]$INFO[ListItem.ChannelNumber][/B]</label>
                     </control>
                     <control type="image">
-                        <posx>5</posx>
-                        <posy>35</posy>
-                        <width>30</width>
+                        <posx>40</posx>
+                        <posy>12</posy>
+                        <width>20</width>
                         <height>20</height>
                         <texture>PVR-IsRecording.png</texture>
                         <visible>ListItem.IsRecording</visible>

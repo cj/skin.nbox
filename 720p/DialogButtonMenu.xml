@@ -70,7 +70,7 @@
                         <width>340</width>
                         <label>13005</label>
                         <!--onclick>ShutDown()</onclick-->
-						<onclick condition="System.CanPowerDown">XBMC.Powerdown()</onclick>
+                        <onclick condition="System.CanPowerDown">XBMC.Powerdown()</onclick>
                         <onclick condition="!System.CanPowerDown">XBMC.Shutdown()</onclick>
                         <align>right</align>
                         <textcolor>black</textcolor>

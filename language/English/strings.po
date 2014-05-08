@@ -249,3 +249,7 @@ msgstr ""
 msgctxt "#31741"
 msgid "Kids"
 msgstr ""
+
+msgctxt "#31742"
+msgid "Start LiveTV channel to view EPG"
+msgstr ""

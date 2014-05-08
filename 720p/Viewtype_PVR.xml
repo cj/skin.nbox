@@ -164,9 +164,9 @@
                         <label>$INFO[ListItem.Label] [COLOR Accent]$INFO[ListItem.Title][/COLOR]</label>
                     </control>
                     <control type="image">
-                        <posx>5</posx>
-                        <posy>37</posy>
-                        <width>30</width>
+                        <posx>40</posx>
+                        <posy>12</posy>
+                        <width>20</width>
                         <height>20</height>
                         <texture>PVR-IsRecording.png</texture>
                         <visible>ListItem.IsRecording</visible>
@@ -210,9 +210,9 @@
                         <info>ListItem.Progress</info>
                     </control>
                     <control type="image">
-                        <posx>5</posx>
-                        <posy>37</posy>
-                        <width>30</width>
+                        <posx>40</posx>
+                        <posy>12</posy>
+                        <width>20</width>
                         <height>20</height>
                         <texture>PVR-IsRecording.png</texture>
                         <visible>ListItem.IsRecording</visible>
@@ -398,9 +398,9 @@
                         <label>$INFO[ListItem.Label] [COLOR Accent]$INFO[ListItem.Title][/COLOR]</label>
                     </control>
                     <control type="image">
-                        <posx>5</posx>
-                        <posy>37</posy>
-                        <width>30</width>
+                        <posx>40</posx>
+                        <posy>12</posy>
+                        <width>20</width>
                         <height>20</height>
                         <texture>PVR-IsRecording.png</texture>
                         <visible>ListItem.IsRecording</visible>
@@ -444,9 +444,9 @@
                         <info>ListItem.Progress</info>
                     </control>
                     <control type="image">
-                        <posx>5</posx>
-                        <posy>37</posy>
-                        <width>30</width>
+                        <posx>40</posx>
+                        <posy>12</posy>
+                        <width>20</width>
                         <height>20</height>
                         <texture>PVR-IsRecording.png</texture>
                         <visible>ListItem.IsRecording</visible>
@@ -730,22 +730,24 @@
                 <itemlayout height="45" width="140">
                     <control type="label" id="1">
                         <posx>10</posx>
-                        <width>120</width>
+                        <width>110</width>
                         <info>ListItem.Label</info>
                     </control>
                     <control type="image">
-                        <posx>5</posx>
-                        <posy>28</posy>
-                        <width>30</width>
+                        <posx>20r</posx>
+                        <posy>12</posy>
+                        <width>20</width>
                         <height>20</height>
+                        <aspectratio align="right">keep</aspectratio>
                         <texture>PVR-IsRecording.png</texture>
                         <visible>ListItem.IsRecording</visible>
                     </control>
                     <control type="image">
-                        <posx>5</posx>
-                        <posy>28</posy>
+                        <posx>20r</posx>
+                        <posy>12</posy>
                         <width>20</width>
                         <height>20</height>
+                        <aspectratio align="right">keep</aspectratio>
                         <texture>PVR-HasTimer.png</texture>
                         <visible>ListItem.HasTimer + !ListItem.IsRecording</visible>
                     </control>
@@ -753,22 +755,24 @@
                 <focusedlayout height="45" width="140">
                     <control type="label" id="1">
                         <posx>10</posx>
-                        <width>120</width>
+                        <width>110</width>
                         <label>[COLOR Accent]$INFO[ListItem.Label][/COLOR]</label>
                     </control>
                     <control type="image">
-                        <posx>5</posx>
-                        <posy>28</posy>
-                        <width>30</width>
+                        <posx>20r</posx>
+                        <posy>12</posy>
+                        <width>20</width>
                         <height>20</height>
+                        <aspectratio align="right">keep</aspectratio>
                         <texture>PVR-IsRecording.png</texture>
                         <visible>ListItem.IsRecording</visible>
                     </control>
                     <control type="image">
-                        <posx>5</posx>
-                        <posy>28</posy>
+                        <posx>20r</posx>
+                        <posy>12</posy>
                         <width>20</width>
                         <height>20</height>
+                        <aspectratio align="right">keep</aspectratio>
                         <texture>PVR-HasTimer.png</texture>
                         <visible>ListItem.HasTimer + !ListItem.IsRecording</visible>
                     </control>
@@ -857,7 +861,7 @@
                     <posx>580</posx>
                     <width>300</width>
                     <height>45</height>
-                    <label>[B]$LOCALIZE[31610][/B]</label>
+                    <label>[B]$LOCALIZE[21820][/B]</label>
                 </control>
                 <control type="label">
                     <description>Status header label</description>
@@ -1046,7 +1050,7 @@
                 <scrolltime>200</scrolltime>
                 <itemlayout height="40">
                     <control type="label">
-                        <posx>50</posx>
+                        <posx>10</posx>
                         <posy>0</posy>
                         <width>190</width>
                         <align>left</align>
@@ -1061,23 +1065,22 @@
                         <info>ListItem.Label</info>
                     </control>
                     <control type="label">
-                        <posx>950</posx>
+                        <posx>580</posx>
                         <posy>0</posy>
                         <width>500</width>
                         <height>40</height>
-                        <align>right</align>
                         <info>ListItem.Date</info>
                     </control>
                     <control type="image">
-                        <posx>970</posx>
+                        <posx>940</posx>
                         <posy>10</posy>
-                        <width>30</width>
+                        <width>20</width>
                         <height>20</height>
                         <texture>PVR-IsRecording.png</texture>
                         <visible>ListItem.IsRecording</visible>
                     </control>
                     <control type="label">
-                        <posx>1005</posx>
+                        <posx>970</posx>
                         <posy>0</posy>
                         <width>80</width>
                         <height>40</height>
@@ -1086,7 +1089,7 @@
                         <visible>ListItem.IsRecording</visible>
                     </control>
                     <control type="image">
-                        <posx>580</posx>
+                        <posx>940</posx>
                         <posy>10</posy>
                         <width>20</width>
                         <height>20</height>
@@ -1094,13 +1097,13 @@
                         <visible>ListItem.HasTimer + !ListItem.IsRecording</visible>
                     </control>
                     <control type="label">
-                        <posx>940</posx>
+                        <posx>970</posx>
                         <posy>0</posy>
                         <width>80</width>
                         <height>40</height>
                         <align>left</align>
                         <label>31510</label>
-                        <visible>ListItem.HasTimer</visible>
+                        <visible>ListItem.HasTimer + !ListItem.IsRecording</visible>
                     </control>
                 </itemlayout>
                 <focusedlayout height="40">
@@ -1112,7 +1115,7 @@
                         <texture border="5">other_textures/buttonfo.png</texture>
                     </control>
                     <control type="label">
-                        <posx>50</posx>
+                        <posx>10</posx>
                         <posy>0</posy>
                         <width>190</width>
                         <align>left</align>
@@ -1128,24 +1131,23 @@
                         <label>[COLOR Accent]$INFO[ListItem.Label][/COLOR]</label>
                     </control>
                     <control type="label">
-                        <posx>950</posx>
+                        <posx>580</posx>
                         <posy>0</posy>
                         <width>500</width>
                         <height>40</height>
-                        <align>right</align>
                         <textcolor>white</textcolor>
                         <label>[COLOR Accent]$INFO[ListItem.Date][/COLOR]</label>
                     </control>
                     <control type="image">
-                        <posx>970</posx>
+                        <posx>940</posx>
                         <posy>10</posy>
-                        <width>30</width>
+                        <width>20</width>
                         <height>20</height>
                         <texture>PVR-IsRecording.png</texture>
                         <visible>ListItem.IsRecording</visible>
                     </control>
                     <control type="label">
-                        <posx>1005</posx>
+                        <posx>970</posx>
                         <posy>0</posy>
                         <width>80</width>
                         <height>40</height>
@@ -1154,7 +1156,7 @@
                         <visible>ListItem.IsRecording</visible>
                     </control>
                     <control type="image">
-                        <posx>970</posx>
+                        <posx>940</posx>
                         <posy>10</posy>
                         <width>20</width>
                         <height>20</height>
@@ -1162,13 +1164,13 @@
                         <visible>ListItem.HasTimer + !ListItem.IsRecording</visible>
                     </control>
                     <control type="label">
-                        <posx>1000</posx>
+                        <posx>970</posx>
                         <posy>0</posy>
                         <width>80</width>
                         <height>40</height>
                         <align>left</align>
                         <label>31510</label>
-                        <visible>ListItem.HasTimer</visible>
+                        <visible>ListItem.HasTimer + !ListItem.IsRecording</visible>
                     </control>
                 </focusedlayout>
             </control>
@@ -1191,6 +1193,21 @@
         <control type="group">
             <description>TV Guide Channel</description>
             <visible>Control.IsVisible(15)</visible>
+            <control type="button">
+                <posx>395</posx>
+                <posy>350</posy>
+                <width>600</width>
+                <height>50</height>
+                <onleft>31</onleft>
+                <onright>31</onright>
+                <onup>31</onup>
+                <ondown>31</ondown>
+                <onclick>31</onclick>
+                <font>Sort_Font_Small</font>
+                <textcolor>White</textcolor>
+                <visible>!Pvr.IsPlayingTv</visible>
+                <label>$LOCALIZE[31742]</label>
+            </control>
             <control type="label">
                 <posx>75</posx>
                 <posy>220</posy>
@@ -1231,10 +1248,12 @@
                 <texture>music_fanart_diffuse.png</texture>
                 <fadetime>200</fadetime>
                 <aspectratio scalediffuse="false">stretch</aspectratio>
+                <visible>Pvr.IsPlayingTv</visible>
             </control>
             <control type="group">
                 <posx>76</posx>
                 <posy>288</posy>
+                <visible>Pvr.IsPlayingTv</visible>
                 <control type="label">
                     <description>Date Time label</description>
                     <posx>10</posx>
@@ -1268,7 +1287,7 @@
                     <scrolltime>200</scrolltime>
                     <itemlayout height="45">
                         <control type="label">
-                            <posx>150</posx>
+                            <posx>10</posx>
                             <posy>0</posy>
                             <width>280</width>
                             <height>40</height>
@@ -1284,15 +1303,15 @@
                             <info>ListItem.Label</info>
                         </control>
                         <control type="image">
-                            <posx>970</posx>
+                            <posx>940</posx>
                             <posy>10</posy>
-                            <width>30</width>
+                            <width>20</width>
                             <height>20</height>
                             <texture>PVR-IsRecording.png</texture>
                             <visible>ListItem.IsRecording</visible>
                         </control>
                         <control type="label">
-                            <posx>940</posx>
+                            <posx>970</posx>
                             <posy>0</posy>
                             <width>80</width>
                             <height>40</height>
@@ -1301,7 +1320,7 @@
                             <visible>ListItem.IsRecording</visible>
                         </control>
                         <control type="image">
-                            <posx>970</posx>
+                            <posx>940</posx>
                             <posy>10</posy>
                             <width>20</width>
                             <height>20</height>
@@ -1309,13 +1328,13 @@
                             <visible>ListItem.HasTimer + !ListItem.IsRecording</visible>
                         </control>
                         <control type="label">
-                            <posx>940</posx>
+                            <posx>970</posx>
                             <posy>0</posy>
                             <width>80</width>
                             <height>40</height>
                             <align>left</align>
                             <label>31510</label>
-                            <visible>ListItem.HasTimer</visible>
+                            <visible>ListItem.HasTimer + !ListItem.IsRecording</visible>
                         </control>
                     </itemlayout>
                     <focusedlayout height="135">
@@ -1327,7 +1346,7 @@
                             <texture border="5">tile.png</texture>
                         </control>
                         <control type="label">
-                            <posx>150</posx>
+                            <posx>10</posx>
                             <posy>0</posy>
                             <width>280</width>
                             <height>40</height>
@@ -1355,9 +1374,9 @@
                             <info>ListItem.Plot</info>
                         </control>
                         <control type="image">
-                            <posx>970</posx>
+                            <posx>1026</posx>
                             <posy>10</posy>
-                            <width>30</width>
+                            <width>20</width>
                             <height>20</height>
                             <texture>PVR-IsRecording.png</texture>
                             <visible>ListItem.IsRecording</visible>
@@ -1372,7 +1391,7 @@
                             <visible>ListItem.IsRecording</visible>
                         </control>
                         <control type="image">
-                            <posx>970</posx>
+                            <posx>1026</posx>
                             <posy>10</posy>
                             <width>20</width>
                             <height>20</height>
@@ -1386,7 +1405,7 @@
                             <height>40</height>
                             <align>left</align>
                             <label>31510</label>
-                            <visible>ListItem.HasTimer</visible>
+                            <visible>ListItem.HasTimer + !ListItem.IsRecording</visible>
                         </control>
                     </focusedlayout>
                 </control>
@@ -1515,15 +1534,15 @@
                             <info>ListItem.Label</info>
                         </control>
                         <control type="image">
-                            <posx>970</posx>
+                            <posx>940</posx>
                             <posy>10</posy>
-                            <width>30</width>
+                            <width>20</width>
                             <height>20</height>
                             <texture>PVR-IsRecording.png</texture>
                             <visible>ListItem.IsRecording</visible>
                         </control>
                         <control type="label">
-                            <posx>940</posx>
+                            <posx>970</posx>
                             <posy>0</posy>
                             <width>80</width>
                             <height>40</height>
@@ -1532,7 +1551,7 @@
                             <visible>ListItem.IsRecording</visible>
                         </control>
                         <control type="image">
-                            <posx>970</posx>
+                            <posx>940</posx>
                             <posy>10</posy>
                             <width>20</width>
                             <height>20</height>
@@ -1540,13 +1559,13 @@
                             <visible>ListItem.HasTimer + !ListItem.IsRecording</visible>
                         </control>
                         <control type="label">
-                            <posx>940</posx>
+                            <posx>970</posx>
                             <posy>0</posy>
                             <width>80</width>
                             <height>40</height>
                             <align>left</align>
                             <label>31510</label>
-                            <visible>ListItem.HasTimer</visible>
+                            <visible>ListItem.HasTimer + !ListItem.IsRecording</visible>
                         </control>
                     </itemlayout>
                     <focusedlayout height="135">
@@ -1592,15 +1611,15 @@
                             <info>ListItem.Plot</info>
                         </control>
                         <control type="image">
-                            <posx>970</posx>
+                            <posx>940</posx>
                             <posy>10</posy>
-                            <width>30</width>
+                            <width>20</width>
                             <height>20</height>
                             <texture>PVR-IsRecording.png</texture>
                             <visible>ListItem.IsRecording</visible>
                         </control>
                         <control type="label">
-                            <posx>940</posx>
+                            <posx>970</posx>
                             <posy>0</posy>
                             <width>80</width>
                             <height>40</height>
@@ -1609,7 +1628,7 @@
                             <visible>ListItem.IsRecording</visible>
                         </control>
                         <control type="image">
-                            <posx>970</posx>
+                            <posx>940</posx>
                             <posy>10</posy>
                             <width>20</width>
                             <height>20</height>
@@ -1617,13 +1636,13 @@
                             <visible>ListItem.HasTimer + !ListItem.IsRecording</visible>
                         </control>
                         <control type="label">
-                            <posx>940</posx>
+                            <posx>970</posx>
                             <posy>0</posy>
                             <width>80</width>
                             <height>40</height>
                             <align>left</align>
                             <label>31510</label>
-                            <visible>ListItem.HasTimer</visible>
+                            <visible>ListItem.HasTimer + !ListItem.IsRecording</visible>
                         </control>
                     </focusedlayout>
                 </control>

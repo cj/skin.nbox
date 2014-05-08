@@ -2031,14 +2031,6 @@
                             <height>155</height>
                             <texture>tile.png</texture>
                         </control>
-                        <control type="image">
-                            <posx>360</posx>
-                            <posy>5</posy>
-                            <width>30</width>
-                            <height>25</height>
-                            <aspectratio>keep</aspectratio>
-                            <texture>PVR-IsRecording.png</texture>
-                        </control>
                         <control type="label">
                             <description>Is Recording Header label</description>
                             <posx>20</posx>
@@ -2079,14 +2071,6 @@
                             <width>470</width>
                             <height>155</height>
                             <texture>tile.png</texture>
-                        </control>
-                        <control type="image">
-                            <posx>365</posx>
-                            <posy>5</posy>
-                            <width>25</width>
-                            <height>25</height>
-                            <aspectratio>keep</aspectratio>
-                            <texture>PVR-HasTimer.png</texture>
                         </control>
                         <control type="label">
                             <description>Next Timer Header label</description>
