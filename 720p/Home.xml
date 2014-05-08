@@ -742,7 +742,7 @@
                             <posy>0</posy>
                             <width>155</width>
                             <height>155</height>
-                            <texture>$INFO[ListItem.Thumb]</texture>
+                            <texture fallback="DefaultVideoCover.png">$INFO[ListItem.Thumb]</texture>
                             <aspectratio>scale</aspectratio>
                             <colordiffuse>ImageDiffuse</colordiffuse>
                         </control>
@@ -753,7 +753,7 @@
                             <posy>0</posy>
                             <width>155</width>
                             <height>155</height>
-                            <texture>$INFO[ListItem.Thumb]</texture>
+                            <texture fallback="DefaultVideoCover.png">$INFO[ListItem.Thumb]</texture>
                             <aspectratio>scale</aspectratio>
                             <animation effect="fade" start="50" time="400" easing="out" tween="square">Focus</animation>
                         </control>
@@ -1191,7 +1191,7 @@
                             <posy>0</posy>
                             <width>155</width>
                             <height>155</height>
-                            <texture>$INFO[ListItem.Thumb]</texture>
+                            <texture fallback="DefaultVideoCover.png">$INFO[ListItem.Thumb]</texture>
                             <aspectratio>scale</aspectratio>
                             <colordiffuse>ImageDiffuse</colordiffuse>
                         </control>
@@ -1202,7 +1202,7 @@
                             <posy>0</posy>
                             <width>155</width>
                             <height>155</height>
-                            <texture>$INFO[ListItem.Thumb]</texture>
+                            <texture fallback="DefaultVideoCover.png">$INFO[ListItem.Thumb]</texture>
                             <aspectratio>scale</aspectratio>
                             <animation effect="fade" start="50" time="400" easing="out" tween="square">Focus</animation>
                         </control>
@@ -1657,7 +1657,7 @@
                             <posy>0</posy>
                             <width>155</width>
                             <height>155</height>
-                            <texture>$INFO[ListItem.Thumb]</texture>
+                            <texture fallback="DefaultAlbumCover.png">$INFO[ListItem.Thumb]</texture>
                             <aspectratio>scale</aspectratio>
                             <colordiffuse>ImageDiffuse</colordiffuse>
                         </control>
@@ -1668,7 +1668,7 @@
                             <posy>0</posy>
                             <width>155</width>
                             <height>155</height>
-                            <texture>$INFO[ListItem.Thumb]</texture>
+                            <texture fallback="DefaultAlbumCover.png">$INFO[ListItem.Thumb]</texture>
                             <aspectratio>scale</aspectratio>
                             <animation effect="fade" start="50" time="400" easing="out" tween="square">Focus</animation>
                         </control>
@@ -2159,7 +2159,7 @@
                             <posy>20</posy>
                             <width>100</width>
                             <height>100</height>
-                            <texture>$INFO[ListItem.Thumb]</texture>
+                            <texture fallback="DefaultDVDRom.png">$INFO[ListItem.Thumb]</texture>
                             <aspectratio>scale</aspectratio>
                         </control>
                     </itemlayout>
@@ -2180,7 +2180,7 @@
                                 <posy>20</posy>
                                 <width>100</width>
                                 <height>100</height>
-                                <texture>$INFO[ListItem.Thumb]</texture>
+                                <texture fallback="DefaultDVDRom.png">$INFO[ListItem.Thumb]</texture>
                                 <aspectratio>scale</aspectratio>
                             </control>
                         </control>
