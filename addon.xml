@@ -5,8 +5,6 @@
 	name="nbox"
 	provider-name="Niamu">
 	<requires>
-		<import addon="xbmc.gui" version="4.0.0"/>
-		<import addon="service.skin.widgets" version="0.0.14"/>
 	</requires>
 	<extension
 		point="xbmc.gui.skin"
